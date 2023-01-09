@@ -298,9 +298,8 @@ box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
       
     }
     @media screen and (min-device-pixel-ratio: 2),
-    screen and (min-resolution: 192dpi),
-    screen and (min-resolution: 2dppx),
-    screen and (min-width: 320px) and (max-width: 479px), (min-width: 480px) {
+     (min-resolution: 192dpi),
+     (min-resolution: 2dppx) {
     .overlay {
         background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
          url(../imges/img-mobile/mobile-dark@2x.jpg);
@@ -772,9 +771,8 @@ box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
         }
 
         @media screen and (min-device-pixel-ratio: 2),
-        screen and (min-resolution: 192dpi),
-        screen and (min-resolution: 2dppx),
-        screen and (min-width: 768px)  {
+         (min-resolution: 192dpi),
+         (min-resolution: 2dppx) {
         .overlay {
             background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
             url(../imges/img-tablet/tablet-dark@2x.jpg);
@@ -965,10 +963,17 @@ box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
             max-width: 1440px;
             
             background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-             url(../imges/img-dekctop/desktop-dark.jpg);
+             url(../imges/img-desktop/desktop-dark.jpg);
      
         }
-
+        @media screen and (min-device-pixel-ratio: 2),
+        (min-resolution: 192dpi),
+        (min-resolution: 2dppx) {
+       .overlay {
+           background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+           url(../imges/img-desktop/desktop-dark@2x.jpg);
+           }
+       }
     /*section1 (min-width: 1200px)*/
       
         .benefits-list {
@@ -1046,13 +1051,7 @@ box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.5);
         
         }
 
-        .overlay {
-            max-width: 1440px;
-            
-            background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-             url(../imges/img-desktop/desktop-dark.jpg);
-     
-        }
+
         /*section2 (min-width: 1200px)*/
         .container { 
             display: flex;
