@@ -578,6 +578,7 @@ img {
     .subscribe-tablet{
         display: flex;
         flex-direction: column;
+        width: 100%;
     }
     .subscribe-item {
         margin-bottom: 16px;
