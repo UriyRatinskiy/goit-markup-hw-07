@@ -199,11 +199,7 @@ img {
 } */
 
 .container { 
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    padding-left: 16px;
+   padding-left: 16px;
     padding-right: 16px;
     margin: 0 auto;
 }
@@ -238,6 +234,12 @@ img {
     padding-bottom: 24px;
                 
 }
+.page-heder-container{ 
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 .mobile-menu-open {
     background-color: transparent;
     border: none;
@@ -249,14 +251,7 @@ img {
 
 /******* (max-width: 767px) *******/
 
-
-@media screen and (max-width: 767px){
-    .container {
-        
-        margin: 0 auto;
-        
-       }
-
+ 
 /******* herro (max-width: 767px)*******/
 
     .section-herro {
@@ -267,7 +262,10 @@ img {
     }
 
     .herro-container {
+        display: flex;
+        align-items: center;
         flex-direction: column;
+      
     }
 
     .herro-titel {
@@ -394,6 +392,9 @@ img {
     }
 
     .container-team{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
         flex-direction: column;
         padding-top: 96px;
         padding-bottom: 128px;
@@ -543,7 +544,8 @@ img {
     .footer-container {
 
         display: flex;
-
+        align-items: center;
+        justify-content: space-around;
       
 
         flex-direction: column;
@@ -716,14 +718,6 @@ img {
 
 @media screen and (min-width: 768px) {
 
-
-    .container {
-       
-         margin: 0 auto;
-         flex-direction: column;
-    }
-
-
     .mobile-menu-open_icon {
          display: none;
            
@@ -840,7 +834,7 @@ img {
 
     .overlay {
         width: 100%;
-            
+        max-width: 768px;  
         background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../imges/img-tablet/tablet-dark.jpg); 
         background-size: auto auto;    
