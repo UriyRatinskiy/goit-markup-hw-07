@@ -93,8 +93,9 @@ img {
     position: relative;
     padding-left: 40px;
     padding-bottom: 40px;
+    padding-right: 40px;
     padding-top: 80px;
-    width: 428px;
+    max-width: 428px;
 }
 .mobile-menu-close-btn {
     position: absolute;
@@ -140,11 +141,11 @@ img {
 /******* mobile-menu_adres ********/
 
 .mobile-menu_adres-list {
-    display: block;
+  
     display: flex;
     flex-direction: column;
     margin-bottom: 48px;
-    margin-right: 42px;
+
 }
 
 .mobile-menu-tel {
