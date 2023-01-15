@@ -249,10 +249,8 @@ img {
 
 
 
-/******* (max-width: 767px) *******/
-
  
-/******* herro (max-width: 767px)*******/
+/******* herro (min-width: 480px)*******/
 
     .section-herro {
         background-color: var(--NAVY-BLUE);
@@ -308,7 +306,7 @@ img {
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     }
 
-/*******overlay (max-width: 767px)*******/
+/*******overlay (min-width: 480px)*******/
     
     .overlay {
         max-width: 428px;
@@ -333,7 +331,7 @@ img {
         }
     }
 
-/******* section1 (max-width: 767px)*******/
+/******* section1 (min-width: 480px)*******/
 
     .benefits-list {
         list-style: none; 
@@ -368,7 +366,7 @@ img {
         color: var(--SLATE);
     }
 
-/*******section2 (max-width: 767px)*******/
+/*******section2 (min-width: 480px)*******/
 
     .doing-container {
         display: none;
@@ -383,7 +381,7 @@ img {
     }
 
 
-/*******section3 (max-width: 767px)*******/
+/*******section3 (min-width: 480px)*******/
 
     .team {
         display: flex;
@@ -470,7 +468,7 @@ img {
         background-color: var(--IRIS);   
     }
 
-/*******section4 (max-width: 767px)*******/
+/*******section4 (min-width: 480px)*******/
 
     .customers-container {
         display: block;
@@ -533,7 +531,7 @@ img {
         fill: currentColor;
     }
 
-/******* footer (max-width: 767px)*******/
+/******* footer (min-width: 480px)*******/
 
     .footer-text {
         background-color: var(--NAVY-BLUE);
@@ -911,7 +909,7 @@ img {
   
     .customers-item{
         column-gap: 24px; 
-        justify-content: center;
+       
     }
 
     .customers-list-link {
@@ -1106,11 +1104,7 @@ img {
 
 /*******section2 (min-width: 1200px)*******/
 
-    .container { 
-    
-        align-items: center;
-        justify-content: space-between;      
-    }
+
      
     .doing-container {
         flex-direction: column;
@@ -1155,8 +1149,18 @@ img {
 /******* footer (min-width: 1200px)*******/
 
   
-   .footer-container-desktop {
-        padding: 100px 0px;
+   .footer-container {
+    flex-direction: unset;
+        padding: 100px 16px;
+   }
+
+   .logo-item-tablet{
+    margin-bottom: 0;
+    margin-right: 80px;
+   }
+
+   .footer-logo-web {
+    margin-right: 120px;
    }
 
     .logo-item-desktop {
@@ -1182,8 +1186,6 @@ img {
  }
     
    
-
-
 
 /******* nav *******/
 
