@@ -69,8 +69,10 @@ img {
     z-index: 1000;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 796px;
+    width: 100vw;
+    max-height: 796px;
+    height: 100vh;
+    overflow-y: auto;
 
     background-color: #FFFFFF;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -216,15 +218,17 @@ img {
 @media screen and (min-width: 768px){
 
     .container {
+
         width: 768px;
-       
+
     }
 }
 @media screen and (min-width: 1200px){
 
     .container {
+
         width: 1168px;
-       
+
     }
 }
 
@@ -246,7 +250,13 @@ img {
 /******* (max-width: 767px) *******/
 
 
-    
+@media screen and (max-width: 767px){
+    .container {
+        
+        margin: 0 auto;
+        
+       }
+
 /******* herro (max-width: 767px)*******/
 
     .section-herro {
@@ -531,20 +541,36 @@ img {
     }
 
     .footer-container {
+
         display: flex;
+
+      
+
         flex-direction: column;
         padding-top: 96px;
         padding-bottom: 96px;
-       
+
     }
 
     .logo-item-tablet {
         margin-bottom: 72px;
     }
 
+
     .logo-studio-hover {
         color: var(--CLOUD);
     }
+
+
+    .logo-studio-hover {
+        color: var(--CLOUD);
+    }
+
+   .logo-studio-hover {
+        color: var(--CLOUD);
+    }
+    
+
     .quote {
         color: var(--CORNFLOWER);
         font-size: 16px;
@@ -554,9 +580,15 @@ img {
        margin-top: 16px;
         text-align: left;
     }
+
     .footer-logo-web {
         margin-bottom: 72px;
     }
+
+    .footer-logo-web {
+        margin-bottom: 72px;
+    }
+
     .title-media {
         font-weight: 600;
         font-size: 16px;
@@ -684,6 +716,14 @@ img {
 
 @media screen and (min-width: 768px) {
 
+
+    .container {
+       
+         margin: 0 auto;
+         flex-direction: column;
+    }
+
+
     .mobile-menu-open_icon {
          display: none;
            
@@ -799,7 +839,7 @@ img {
     }
 
     .overlay {
-        max-width: 768px;
+        width: 100%;
             
         background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../imges/img-tablet/tablet-dark.jpg); 
@@ -897,6 +937,7 @@ img {
 
     .footer-container {
         padding: 96px 108px;
+        align-items: unset;
     }
 
     .logo-web-tablet {
@@ -923,11 +964,14 @@ img {
     }
 
     .subscribe-form {
-        display: flex;
+       flex-direction: unset;
     }
 
     .subscribe-form-input {
         width: 264px;
+        margin-right: 24px;
+        margin-bottom: 0;
+
     }
  
     .subscribe-form-submit {
@@ -944,10 +988,7 @@ img {
         padding-bottom: 24px;           
     }
 
-    .container {
-        width: 1160px; 
-    }
-         
+ 
     .nav-list {
         margin-left: 76px;
     }
@@ -1072,7 +1113,7 @@ img {
 /*******section2 (min-width: 1200px)*******/
 
     .container { 
-        display: flex;
+    
         align-items: center;
         justify-content: space-between;      
     }
@@ -1119,10 +1160,7 @@ img {
 
 /******* footer (min-width: 1200px)*******/
 
-    .footer-item-desktop {
-        flex-direction: inherit;
-}
-   
+  
    .footer-container-desktop {
         padding: 100px 0px;
    }
@@ -1530,57 +1568,3 @@ img {
     color: var(--CLOUD);
 
 } */
- /* .project-thumb:hover::before{
-    opacity: 1;
- } */
-
- /* .project-overlay{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: #4D5AE5;
-    background-blend-mode: soft-light;
-    mix-blend-mode: normal;
-    /* opacity: 0; */
-
-    /* transform: translateY(100%);
-    transition: transform 250ms var(--timing-function);
-
-     }
-
-.project-card:hover .project-overlay{
-    transform: translateY(0);
-    
-}
-
- .actions {
-    position: absolute;
-    top: 40px;
-    right: 32px;
-    left: 32px;
-
-    opacity: 0;
- }
-
- .project-card:hover .actions {
-    opacity: 1;
-       }
-       
- .card-content {
-    width: 360px;
-    padding: 32px 16px;
- }
-.project-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 1.2; 
-    margin-bottom: 8px; 
-
-}
-.project-text {
-    color: var(--SLATE);
-    font-size: 16px;
-    line-height: 1.5;
-}  */
