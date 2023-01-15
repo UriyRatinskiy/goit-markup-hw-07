@@ -218,14 +218,22 @@ img {
 @media screen and (min-width: 768px){
 
     .container {
+<<<<<<< HEAD
         width: 768px;
+=======
+        width: 736px;
+>>>>>>> 1eee2ac4c42f1b0f0d6934ddcdddbae5d9a38b25
        
     }
 }
 @media screen and (min-width: 1200px){
 
     .container {
+<<<<<<< HEAD
         width: 1160px;
+=======
+        width: 1168px;
+>>>>>>> 1eee2ac4c42f1b0f0d6934ddcdddbae5d9a38b25
        
     }
 }
@@ -246,8 +254,18 @@ img {
 
 
 /******* (max-width: 767px) *******/
+<<<<<<< HEAD
 
 
+=======
+
+@media screen and (max-width: 767px){
+    .container {
+        
+        margin: 0 auto;
+        
+       }
+>>>>>>> 1eee2ac4c42f1b0f0d6934ddcdddbae5d9a38b25
     
 /******* herro (max-width: 767px)*******/
 
@@ -533,20 +551,35 @@ img {
     }
 
     .footer-container {
+<<<<<<< HEAD
       
         flex-direction: column;
         padding-top: 96px;
         padding-bottom: 96px;
        
+=======
+        display: flex;
+        flex-direction: column;
+        padding-top: 96px;
+        padding-bottom: 96px;
+
+>>>>>>> 1eee2ac4c42f1b0f0d6934ddcdddbae5d9a38b25
     }
 
     .logo-item-tablet {
         margin-bottom: 72px;
     }
 
+<<<<<<< HEAD
     .logo-studio-hover {
         color: var(--CLOUD);
     }
+=======
+   .logo-studio-hover {
+        color: var(--CLOUD);
+    }
+    
+>>>>>>> 1eee2ac4c42f1b0f0d6934ddcdddbae5d9a38b25
     .quote {
         color: var(--CORNFLOWER);
         font-size: 16px;
@@ -556,9 +589,13 @@ img {
        margin-top: 16px;
         text-align: left;
     }
+<<<<<<< HEAD
     .footer-logo-web {
         margin-bottom: 72px;
     }
+=======
+
+>>>>>>> 1eee2ac4c42f1b0f0d6934ddcdddbae5d9a38b25
     .title-media {
         font-weight: 600;
         font-size: 16px;
@@ -682,10 +719,24 @@ img {
 
 
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 1eee2ac4c42f1b0f0d6934ddcdddbae5d9a38b25
 /******** (min-width: 768px) *******/
 
 @media screen and (min-width: 768px) {
 
+<<<<<<< HEAD
+=======
+    .container {
+       
+         margin: 0 auto;
+         flex-direction: column;
+    }
+
+>>>>>>> 1eee2ac4c42f1b0f0d6934ddcdddbae5d9a38b25
     .mobile-menu-open_icon {
          display: none;
            
@@ -801,7 +852,7 @@ img {
     }
 
     .overlay {
-        max-width: 768px;
+        width: 100%;
             
         background-image: linear-gradient( to right, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
         url(../imges/img-tablet/tablet-dark.jpg); 
