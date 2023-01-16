@@ -194,6 +194,18 @@ img {
     transition-duration: 250ms;
     transition-timing-function: var(--timing-function);
 }
+@media screen  and (max-width: 427px) { 
+
+    .mobile-menu-tel {   
+    font-size: 26px;
+    }
+
+    .mobile-menu-list {
+  
+    gap: 26px;
+
+}
+}
  
 /******* mobile-menu-end *******/
 
@@ -852,19 +864,28 @@ img {
         
 /******* section1 (min-width: 768px) *******/
 
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+    .card-team {
+        display: flex;
+    }
+
+
     .benefits-list {
         display: flex;
         flex-wrap: wrap;
+        gap: 72px 24px;
+        flex-basis: calc((100% - 24px)/2);
     }
 
     .benefits-item {
         align-items: flex-start;
         padding: 0px;
-        width: 356px;       
-    }
-
-    .benefits-item:not(:last-child) { 
-        margin-bottom: 72px;
+        max-width: 356px;
+        margin-bottom: 0;
     }
 
     .benefits-subtitle {
@@ -1040,6 +1061,8 @@ img {
     .benefits-list {     
         padding-top: 120px;
         padding-bottom: 120px;
+        flex-basis: calc((100% - 72px)/4);
+
     }      
 
     .benefits-item {
@@ -1050,7 +1073,7 @@ img {
     }
        
     .benefits-item:not(:last-child) { 
-        margin-right: 24px;
+       
         margin-bottom: 0;
     }
 
