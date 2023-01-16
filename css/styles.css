@@ -139,7 +139,7 @@ img {
 
 .mobile-menu_nav-list {
     margin-top: 40px;
-    margin-bottom: 284px;
+    margin-bottom: auto;
 }
 
 /******* mobile-menu_adres ********/
@@ -148,6 +148,7 @@ img {
   
     display: flex;
     flex-direction: column;
+    margin-top: auto;
     margin-bottom: 48px;
 
 }
@@ -176,8 +177,8 @@ img {
 
 .mobile-menu-list {
     display: flex;
-    align-items: center; 
     gap: 56px;
+    flex-wrap: wrap;
 }
 
 .mobile-menu-list-link {
