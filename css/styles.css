@@ -871,6 +871,7 @@ img {
 
     .card-team {
         display: flex;
+        flex-direction: column;
     }
 
 
@@ -1130,11 +1131,14 @@ img {
 
 /*******section2 (min-width: 1200px)*******/
 
-
+    .doing-section{
+        display: flex;
+    }
      
     .doing-container {
         flex-direction: column;
         padding-bottom: 120px;
+
     }
 
     .doing-title {
@@ -1151,11 +1155,11 @@ img {
         list-style: none;
         display: flex;
         justify-content: space-between;
+        gap: 72px 24px;
+        flex-basis: calc((100% - 24px)/2);
     }
 
-    .doing-item:not(:last-child) {
-        padding-right: 24px;
-    }
+
 
 /******* section3 (min-width: 1200px) ********/
 
